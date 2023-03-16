@@ -13,4 +13,4 @@ if __name__ == "__main__":
     
     with open('data/without-reviews/imdb_top_100_tv_series.json') as json_file:
         data = json.load(json_file)
-        episodes.add_episodes_to_tv_series(data, "data/imdb_top_100_tv_series_with_episodes.json")
+        episodes.add_episodes_to_tv_series(data, "data/imdb_top_100_tv_series_with_episodes_reviews.json")

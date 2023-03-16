@@ -1,9 +1,10 @@
 import re
 import json
+import reviews
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-def get_episodes_tvshow(id: str):
+def get_episodes_tvshow(id: str, max_reviews: int):
     driver = webdriver.Chrome()
     driver.get(id + "episodes")
     
@@ -27,11 +28,14 @@ def get_episodes_tvshow(id: str):
         
         season_list = list()
         for index, link in enumerate(episode_links):
+            if index >= len(ratings):
+                break
             episode = dict()
             episode['number'] = index + 1
             episode['link'] = link.get_attribute("href").split("?")[0]
             episode['title'] = link.text
             episode['rating'] = ratings[index]
+            episode['reviews'] = reviews.get_reviews(episode['link'], max_reviews)
             
             season_list.append(episode)
         tvshow_seasons[season] = season_list
@@ -39,12 +43,12 @@ def get_episodes_tvshow(id: str):
     driver.quit()
     return tvshow_seasons
 
-
 def add_episodes_to_tv_series(tvseries:[], path: str):
-    for index, series in enumerate(tvseries[:1]):
-        episodes = get_episodes_tvshow(series['link'])
+    for index, series in enumerate(tvseries):
+        episodes = get_episodes_tvshow(series['link'], 20)
         series['seasons'] = episodes
     
-    json_object = json.dumps(tvseries)
-    with open(path, "w", encoding="utf-8") as outfile:
-        outfile.write(json_object)
+        json_object = json.dumps(series)
+        with open(path, "a", encoding="utf-8") as outfile:
+            outfile.write(json_object)
+            outfile.write(",\n")

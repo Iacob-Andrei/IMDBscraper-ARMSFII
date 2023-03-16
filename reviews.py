@@ -7,9 +7,9 @@ from selenium.common.exceptions import NoSuchElementException
 import json
 import time
 
-url_reviews = "{show}reviews?sort=totalVotes&dir=desc&ratingFilter=0"
+url = "{show}reviews?sort=totalVotes&dir=desc&ratingFilter=0"
 
-def get_reviews_movies(id: str): 
+def get_reviews(id: str, max_reviews: int): 
     
     driver = webdriver.Chrome()
     driver.get(url.format(show=id)) 
@@ -17,7 +17,7 @@ def get_reviews_movies(id: str):
     count = 25
     while True:
         try:
-            if count >= 50:
+            if count >= max_reviews:
                 break
             load_more_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@class='ipl-load-more__button']")))
             load_more_button.click()
@@ -58,12 +58,10 @@ def get_reviews_movies(id: str):
     return reviews_list
 
 
-# TODO: de modificat incat sa caute pt fiecare episod
 def add_reviews_to_movies(shows: [], path: str):
     for index, movie in enumerate(shows):
-        users_reviews = get_reviews_movies(movie['link'])
+        users_reviews = get_reviews(movie['link'], 50)
         movie['users_reviews'] = users_reviews
-        time.sleep(2)
     
     json_object = json.dumps(shows)
     with open(path, "w", encoding="utf-8") as outfile:

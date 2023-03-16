@@ -96,14 +96,6 @@
     "link": "https://www.imdb.com/title/tt8806524/"
   },
   {
-    "place": 13,
-    "tvseries_title": "The Walking Dead: Invazia zombi",
-    "rating": "8.1",
-    "year": "2010",
-    "star_cast": "Andrew Lincoln, Norman Reedus",
-    "link": "https://www.imdb.com/title/tt1520211/"
-  },
-  {
     "place": 14,
     "tvseries_title": "Shrinking",
     "rating": "7.9",
@@ -160,14 +152,6 @@
     "link": "https://www.imdb.com/title/tt0903747/"
   },
   {
-    "place": 21,
-    "tvseries_title": "South Park",
-    "rating": "8.7",
-    "year": "1997",
-    "star_cast": "Trey Parker, Matt Stone",
-    "link": "https://www.imdb.com/title/tt0121955/"
-  },
-  {
     "place": 22,
     "tvseries_title": "Servant",
     "rating": "7.5",
@@ -200,22 +184,6 @@
     "link": "https://www.imdb.com/title/tt7380366/"
   },
   {
-    "place": 26,
-    "tvseries_title": "Anatomia lui Grey",
-    "rating": "7.6",
-    "year": "2005",
-    "star_cast": "Ellen Pompeo, Chandra Wilson",
-    "link": "https://www.imdb.com/title/tt0413573/"
-  },
-  {
-    "place": 27,
-    "tvseries_title": "Lista neagra",
-    "rating": "8.0",
-    "year": "2013",
-    "star_cast": "James Spader, Megan Boone",
-    "link": "https://www.imdb.com/title/tt2741602/"
-  },
-  {
     "place": 28,
     "tvseries_title": "Your Honor",
     "rating": "7.6",
@@ -238,14 +206,6 @@
     "year": "2015",
     "star_cast": "Bob Odenkirk, Rhea Seehorn",
     "link": "https://www.imdb.com/title/tt3032476/"
-  },
-  {
-    "place": 31,
-    "tvseries_title": "Minti criminale",
-    "rating": "8.1",
-    "year": "2005",
-    "star_cast": "Kirsten Vangsness, Matthew Gray Gubler",
-    "link": "https://www.imdb.com/title/tt0452046/"
   },
   {
     "place": 32,
@@ -288,14 +248,6 @@
     "link": "https://www.imdb.com/title/tt21161156/"
   },
   {
-    "place": 37,
-    "tvseries_title": "NCIS: Anchet\u00e3 militar\u00e3",
-    "rating": "7.8",
-    "year": "2003",
-    "star_cast": "David McCallum, Mark Harmon",
-    "link": "https://www.imdb.com/title/tt0364845/"
-  },
-  {
     "place": 38,
     "tvseries_title": "The Company You Keep",
     "rating": "7.3",
@@ -310,14 +262,6 @@
     "year": "2023",
     "star_cast": "Hugh Bonneville, Jack Lowden",
     "link": "https://www.imdb.com/title/tt14063678/"
-  },
-  {
-    "place": 40,
-    "tvseries_title": "Lege si ordine: Brigada speciala",
-    "rating": "8.1",
-    "year": "1999",
-    "star_cast": "Mariska Hargitay, Christopher Meloni",
-    "link": "https://www.imdb.com/title/tt0203259/"
   },
   {
     "place": 41,
@@ -336,14 +280,6 @@
     "link": "https://www.imdb.com/title/tt4276618/"
   },
   {
-    "place": 43,
-    "tvseries_title": "La birou",
-    "rating": "9.0",
-    "year": "2005",
-    "star_cast": "Steve Carell, Jenna Fischer",
-    "link": "https://www.imdb.com/title/tt0386676/"
-  },
-  {
     "place": 44,
     "tvseries_title": "Clanul Soprano",
     "rating": "9.2",
@@ -358,22 +294,6 @@
     "year": "2015",
     "star_cast": "Sanjeev Bhaskar, Jordan Long",
     "link": "https://www.imdb.com/title/tt4192812/"
-  },
-  {
-    "place": 46,
-    "tvseries_title": "The Flash",
-    "rating": "7.5",
-    "year": "2014",
-    "star_cast": "Grant Gustin, Candice Patton",
-    "link": "https://www.imdb.com/title/tt3107288/"
-  },
-  {
-    "place": 47,
-    "tvseries_title": "Supernatural: Aventuri in lumea intunericului",
-    "rating": "8.4",
-    "year": "2005",
-    "star_cast": "Jared Padalecki, Jensen Ackles",
-    "link": "https://www.imdb.com/title/tt0460681/"
   },
   {
     "place": 48,
@@ -456,36 +376,12 @@
     "link": "https://www.imdb.com/title/tt15428778/"
   },
   {
-    "place": 58,
-    "tvseries_title": "Teoria Big Bang",
-    "rating": "8.2",
-    "year": "2007",
-    "star_cast": "Johnny Galecki, Jim Parsons",
-    "link": "https://www.imdb.com/title/tt0898266/"
-  },
-  {
-    "place": 59,
-    "tvseries_title": "Prietenii t\u0103i",
-    "rating": "8.9",
-    "year": "1994",
-    "star_cast": "Jennifer Aniston, Courteney Cox",
-    "link": "https://www.imdb.com/title/tt0108778/"
-  },
-  {
     "place": 60,
     "tvseries_title": "Triada",
     "rating": "6.3",
     "year": "2023",
     "star_cast": "Maite Perroni, David Chocarro",
     "link": "https://www.imdb.com/title/tt20565150/"
-  },
-  {
-    "place": 61,
-    "tvseries_title": "O familie moderna",
-    "rating": "8.5",
-    "year": "2009",
-    "star_cast": "Ed O'Neill, Sof\u00eda Vergara",
-    "link": "https://www.imdb.com/title/tt1442437/"
   },
   {
     "place": 62,
@@ -504,14 +400,6 @@
     "link": "https://www.imdb.com/title/tt2701582/"
   },
   {
-    "place": 64,
-    "tvseries_title": "T\u00e2n\u00e3rul Sheldon",
-    "rating": "7.6",
-    "year": "2017",
-    "star_cast": "Iain Armitage, Zoe Perry",
-    "link": "https://www.imdb.com/title/tt6226232/"
-  },
-  {
     "place": 65,
     "tvseries_title": "Andor",
     "rating": "8.4",
@@ -526,14 +414,6 @@
     "year": "2021",
     "star_cast": "Ming-Na Wen, Dee Bradley Baker",
     "link": "https://www.imdb.com/title/tt12708542/"
-  },
-  {
-    "place": 67,
-    "tvseries_title": "Sub soarele Philadelphiei",
-    "rating": "8.8",
-    "year": "2005",
-    "star_cast": "Charlie Day, Rob McElhenney",
-    "link": "https://www.imdb.com/title/tt0472954/"
   },
   {
     "place": 68,
@@ -582,14 +462,6 @@
     "year": "2005",
     "star_cast": "Emily Deschanel, David Boreanaz",
     "link": "https://www.imdb.com/title/tt0460627/"
-  },
-  {
-    "place": 74,
-    "tvseries_title": "The Night Manager",
-    "rating": "7.8",
-    "year": "2023",
-    "star_cast": "Aditya Roy Kapoor, Anil Kapoor",
-    "link": "https://www.imdb.com/title/tt15576504/"
   },
   {
     "place": 75,
@@ -656,14 +528,6 @@
     "link": "https://www.imdb.com/title/tt10813940/"
   },
   {
-    "place": 83,
-    "tvseries_title": "Doctor Who",
-    "rating": "8.6",
-    "year": "2005",
-    "star_cast": "Jodie Whittaker, Peter Capaldi",
-    "link": "https://www.imdb.com/title/tt0436992/"
-  },
-  {
     "place": 84,
     "tvseries_title": "Oglinda neagra",
     "rating": "8.8",
@@ -688,36 +552,12 @@
     "link": "https://www.imdb.com/title/tt3006802/"
   },
   {
-    "place": 87,
-    "tvseries_title": "Seinfeld",
-    "rating": "8.9",
-    "year": "1989",
-    "star_cast": "Jerry Seinfeld, Julia Louis-Dreyfus",
-    "link": "https://www.imdb.com/title/tt0098904/"
-  },
-  {
     "place": 88,
     "tvseries_title": "The Chosen",
     "rating": "9.3",
     "year": "2017",
     "star_cast": "Shahar Isaac, Jonathan Roumie",
     "link": "https://www.imdb.com/title/tt9471404/"
-  },
-  {
-    "place": 89,
-    "tvseries_title": "Costume",
-    "rating": "8.5",
-    "year": "2011",
-    "star_cast": "Gabriel Macht, Patrick J. Adams",
-    "link": "https://www.imdb.com/title/tt1632701/"
-  },
-  {
-    "place": 90,
-    "tvseries_title": "Familia Simpson",
-    "rating": "8.7",
-    "year": "1989",
-    "star_cast": "Dan Castellaneta, Nancy Cartwright",
-    "link": "https://www.imdb.com/title/tt0096697/"
   },
   {
     "place": 91,
@@ -744,14 +584,6 @@
     "link": "https://www.imdb.com/title/tt4786824/"
   },
   {
-    "place": 94,
-    "tvseries_title": "Fara rusine",
-    "rating": "8.6",
-    "year": "2011",
-    "star_cast": "Emmy Rossum, William H. Macy",
-    "link": "https://www.imdb.com/title/tt1586680/"
-  },
-  {
     "place": 95,
     "tvseries_title": "Formula 1: Drive to Survive",
     "rating": "8.6",
@@ -766,14 +598,6 @@
     "year": "2017",
     "star_cast": "Damson Idris, Carter Hudson",
     "link": "https://www.imdb.com/title/tt6439752/"
-  },
-  {
-    "place": 97,
-    "tvseries_title": "Lost: Naufragia\u0163ii",
-    "rating": "8.3",
-    "year": "2004",
-    "star_cast": "Jorge Garcia, Josh Holloway",
-    "link": "https://www.imdb.com/title/tt0411008/"
   },
   {
     "place": 98,
