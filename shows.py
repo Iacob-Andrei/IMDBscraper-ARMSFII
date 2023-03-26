@@ -30,7 +30,7 @@ def get_movies_info():
         list.append(data)
 
     json_object = json.dumps(list)
-    with open("data/without-reviews/imdb_top_100_movies.json", "w") as outfile:
+    with open("data/backup/imdb_top_100_movies.json", "w") as outfile:
         outfile.write(json_object)
 
     return list
@@ -63,6 +63,6 @@ def get_tv_series_info():
         list.append(data)
 
     json_object = json.dumps(list)
-    with open("data/without-reviews/imdb_top_100_tv_series.json", "w") as outfile:
+    with open("data/backup/imdb_top_100_tv_series.json", "w") as outfile:
         outfile.write(json_object)
     return list
